@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>JustDoIt!</div>
+        <!--form action="WelcomeServlet" method="post">
+            Celcius : <input type="text" name="celcius">
+            <button type="submit">kirim</button>
+        </form>
+
+        <p>
+            <a href="WelcomeServlet?pilihan=1">Pilihan 1 </a> <br/>
+            <a href="WelcomeServlet?pilihan=2">Pilihan 2</a> <br/>
+        </p-->
+
+        <form action="Konversi" method="get">
+            <p>Rupiah : <input type="text" name="nilaiawal"></p>
+            
+            <p>
+            Konversi Ke : <select name="toCurency">
+                <option value="dolar">DOLAR</option>
+                <option value="euro">EURO</option>
+                <option value="ringgit">RINGGIT</option>
+            </select>         
+            </p>
+            <button type="submit">Konversi</button>
+        </form>
+       
+        
+        
+    </body>
+</html>
